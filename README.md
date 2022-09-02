@@ -1,1 +1,1 @@
-## Socket.io를 활용한 랜덤 채팅(Nest.js Study)
+## Socket.io를 활용한 익명 채팅(Nest.js Study)
