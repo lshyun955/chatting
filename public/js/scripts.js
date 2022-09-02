@@ -15,6 +15,10 @@ socket.on('new_chat', (data) => {
   drawNewChat(`${userName}: ${chat}`);
 });
 
+socket.on('disconnect_user', (userName) => {
+  drawNewChat(`${userName} bye...`);
+});
+
 const handleSubmit = (event) => {
   event.preventDefault();
   const inputValue = event.target.elements[0].value;
